@@ -4891,30 +4891,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &7786342705544039036
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7897108704943486650}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ff967b7ed48f2441bcf509edf6b889a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isAnimated: 1
-  isRotating: 1
-  isFloating: 1
-  isScaling: 1
-  rotationAngle: {x: 0, y: 0, z: 10}
-  rotationSpeed: 10
-  floatSpeed: 0.04
-  floatRate: 0.5
-  startScale: {x: 1, y: 1, z: 1}
-  endScale: {x: 1.5, y: 1.5, z: 1.5}
-  scaleSpeed: 1
-  scaleRate: 0.5
 --- !u!4 &7896379124831789996
 Transform:
   m_ObjectHideFlags: 0
@@ -4924,7 +4900,7 @@ Transform:
   m_GameObject: {fileID: 7897108704943486650}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 1.668, y: 0.775, z: -3.225}
+  m_LocalPosition: {x: 1.668, y: 1.264, z: -3.225}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -4942,7 +4918,6 @@ GameObject:
   - component: {fileID: 7896379124831789996}
   - component: {fileID: 7921438468892863304}
   - component: {fileID: 7911154818177737484}
-  - component: {fileID: 7786342705544039036}
   - component: {fileID: 7921438468892863305}
   m_Layer: 0
   m_Name: Heart
